@@ -1,0 +1,148 @@
+body{
+    font-family: sans-serif;
+    background-color: #f8efef;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style:none;
+    margin: 0 20px ;
+    color: lightseagreen;
+    cursor: pointer;
+}
+.logo img{
+    width: 65px;
+    margin-top: -7px;
+    margin-right: 60px;
+    
+}
+.active{
+    color: #fa7319!important;
+}
+h1{
+    font-size: 30px;
+}
+.name-highlight{
+    color: lightsalmon;
+}
+.top-bannar{
+    height: 500px;
+}
+.half-width{
+    width: 45%;
+    float: left;
+    margin-left: 1%;
+    padding-left:2%;
+}
+.half-width img{
+   width: 60%;
+   height: 400PX;
+   margin: 0 0 0 200PX;
+   
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-radius: 5px;
+}
+.btn:hover{
+    color: white;
+    border-radius: 8px;
+    transition: .8s;
+
+
+}
+.half-width2{
+    width: 45%;
+    float: left;
+    margin-left: 1%;
+    padding-left:2%;
+    height: 450px;
+}
+.half-width2 img{
+    margin: 0 0 0 50px;
+    height: 400px;
+    width: 400px;
+}
+
+.fade2{
+    width: 27%;  
+    margin: 30px 30px 30px 30px;
+    box-shadow: 10px 10px 40px gray;
+    background-color: #f8efef;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 250px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.fade{
+    width: 27%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    background-color: #f8efef;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 250px;
+    padding-bottom: 30px;
+    
+}
+.fade3{
+    width: 27%;  
+    box-shadow: 10px 10px 40px gray;
+    background-color: #f8efef;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 250px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.fade3 image{
+    height: 50px;
+    width: 25%;
+    margin-top: 5px; 
+}
+.fade1 image{
+    height: 100px;
+    width: 300px;
+    margin-top: 5px; 
+    margin: 20px;
+}
+.fade image{
+    height: 50px;
+    width: 25%; 
+    margin-top: 5px;
+}
+.fade-box{
+  height: 500px;
+}
+.foot{
+    width: 600px;
+    height: 100px;
+    margin-left: 400px;
+    margin-top: 400px;
+    background:linear-gradient(180deg,rgb(184, 122, 255),rgb(208, 206, 224));
+    box-shadow: 10px 20px 40px gray;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 40px;
+    border-left: 5px solid rgb(216, 171, 47);
+    border-radius: 15px;
+    border-right: 5px solid rgb(252, 153, 6);
+
+}
+.foot:hover{
+    background-image: linear-gradient(lightblue,blue);
+    color: white;
+    font-family: inherit;
+}
+.foot p{
+   margin: 10px;
+   padding: 10px;
+}
